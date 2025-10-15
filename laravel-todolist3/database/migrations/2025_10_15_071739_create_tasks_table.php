@@ -12,10 +12,13 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('tasks', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
-    }
+        $table->id();
+        $table->string('title');
+         $table->text('description')->nullable();
+         $table->boolean('is_completed')->default(false);
+        $table->timestamps();
+    });
+}
 
     /**
      * Reverse the migrations.
