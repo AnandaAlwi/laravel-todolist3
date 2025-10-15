@@ -1,0 +1,2 @@
+# Laravel ToDoList
+Laravel ToDoList adalah aplikasi sederhana yang dibuat menggunakan framework Laravel untuk membantu mengelola daftar tugas harian. Proyek ini dirancang agar mudah dipelajari bagi pemula yang ingin memahami dasar-dasar pengembangan aplikasi dengan laravel. Dengan fitur CRUD, pengguna dapat menambahkan, melihat, mengubah, dan menghapus tugas sesuai kebutuhan. Aplikasi ini juga dapat dikembangkan lebih lanjut untuk mendukung autentikasi, kategori tugas, serta integrasi dengan database yang lebih kompleks.
