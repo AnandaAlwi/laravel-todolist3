@@ -78,10 +78,9 @@
         }
      </style>
 </head> 
-<body>  
-    <h1>Tambah Tugas Baru</h1>
-        
+<body>      
     <form action="{{ route('tasks.store') }}" method="POST">
+        <h1>Tambah Tugas Baru</h1>
     @csrf
     <input type="text" name="title" placeholder="Judul tugas" required>
     @error('title')
