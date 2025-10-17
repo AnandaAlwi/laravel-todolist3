@@ -24,12 +24,12 @@
         .card {
             max-width:400px;
             margin:0 auto;
-            background:gray;
+            background:linear-gradient(to bottom left, black, navy);
             padding:28px 24px;
             border-radius:12px;
             box-shadow:0 6px 16px rgba(0,0,0,0.12);
         }
-        .card p {
+        .card p  {
             font-size:18px;
             margin-bottom:16px;
             line-height:1.6;
