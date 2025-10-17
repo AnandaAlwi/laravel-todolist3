@@ -10,7 +10,7 @@
         }
         body {
             font-family:Arial, Helvetica, sans-serif;
-            background:linear-gradient(135deg, darkgray,black,darkgray);
+            background:linear-gradient(to bottom left, black,firebrick,black);
             padding:40px;
             color:white;
             background-attachment:fixed;
