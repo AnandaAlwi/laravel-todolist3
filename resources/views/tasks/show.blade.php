@@ -11,7 +11,7 @@
         body {
             font-family: "Segoe UI", Tahoma,Geneva,Verdana,sans-serif;
             background:linear-gradient(135deg, #3a3838ff, #000000ff);
-            color: #2c3e50;
+            color: white;
             padding:40px;
             background-attachment:fixed;
         }
@@ -35,8 +35,8 @@
             line-height:1.6;
         }
         .card p strong {
-            color:#2c3e50;
-            min-width:120px;
+            color:white;
+            min-width:120px; 
             display:inline-block;
         }
         .actions {
