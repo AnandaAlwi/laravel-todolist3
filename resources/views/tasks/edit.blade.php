@@ -78,13 +78,13 @@
             transform:scale(0.98);
         }
         .btn-back {
-            background: #cc2e2eff;
+            background:red;
             margin:20px auto 0;
             max-width:480px;
             display:block;
         }
         .btn-back:hover {
-            background: #ae2b27ff;
+            background:firebrick;
         }
     </style>
 </head>
